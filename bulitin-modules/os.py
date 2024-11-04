@@ -1,1 +1,43 @@
 
+
+- main
+  |-- sub01
+      |-- module01
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module02
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module03
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+  |-- sub02
+      |-- module01
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module02
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module03
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+  |-- sub03
+      |-- module01
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module02
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+      |-- module03
+          |-- submodule01
+          |-- submodule02
+          |-- submodule03
+
