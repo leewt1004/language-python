@@ -108,3 +108,10 @@ os.mkdir('d:/python/main/sub03/module03/submodule03') # module02폴더 안에 su
 04. 한번에 만들 수가 없어서 일일이 확인 후 삭제하고 만들어야 함
 05. 계속 반복하다 보니 짜증남 ㅋㅋㅋ 그나마, 한번 테스트 한 후 된다 싶으면 ctrl + c를 통한 복붙이 가능함
 """
+
+
+# 수정된 코드
+import os
+from itertools import product
+
+[os.makedirs(os.path.join(*pe)) for pe in product(['main'], ['sub01', 'sub02', 'sub03'], ['module01', 'module02', 'module03'], ['submodule01', 'submodule02', 'submodule03'])]
