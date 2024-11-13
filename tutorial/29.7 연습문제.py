@@ -80,6 +80,9 @@ y = 3
 
 def get_quotient_remainder(a, b):
     return a // b, a % b
+
+quotient, remainder = get_quotient_remainder(x, y)
+print('몫: {0}, 나머지: {1}'.format(quotient, remainder))
 """
 --- 정답 코드 ---
 
@@ -150,12 +153,4 @@ def get_quotient_remainder(a, b):
     - 하나의 함수로 두 값을 반환하여 함수 호출 한 번으로 필요한 결과를 얻습니다. 출력은 함수 외부에서 조정할 수 있어 유연하고 재사용성이 높습니다.
 (2) 수행 코드
     - 두 함수로 나누어 각각 몫과 나머지를 계산하며, print를 사용해 함수 내부에서 결과를 직접 출력하므로 재사용성이 떨어지고 출력 조정이 어렵습니다.
-
-
-
-
-
-
-
-
 """
