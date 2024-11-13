@@ -68,7 +68,7 @@ quotient 함수
     - 변수 y에 3을 저장합니다. 이 값은 quotient 함수에 전달할 두 번째 값입니다.
 
 (3) quotient(x, y)
-    - quotient 함수를 호출하면서 x와 y를 인자로 전달합니다. 여기서 a = 10과 b = 3으로 설정하여 quotient 함수가 실행됩니다.
+    - quotient 함수를 호출하면서 x와 y를 인수로 전달합니다. 여기서 a = 10과 b = 3으로 설정하여 quotient 함수가 실행됩니다.
     - quotient 함수는 c = a // b로 몫을 계산하고, d = remainder(a, b)로 나머지를 계산한 후 print로 몫 : 3, 나머지 : 1을 출력합니다.
 """
 
